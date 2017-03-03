@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>il.ac.shenkar.mwclient.daos.InputConfigurationDao</OriginalElement>
+  <nodes>
+    <node x="174.34856175972925" y="-218.07106598984777">il.ac.shenkar.mwclient.inputs.InputTranslatorMatcher</node>
+    <node x="175.78510998307934" y="-401.5160744500846">il.ac.shenkar.mwclient.services.EventMatcher</node>
+    <node x="269.8612521150591" y="133.181049069374">il.ac.shenkar.mwclient.models.InputConfiguration</node>
+    <node x="675.3757377717611" y="-196.51258710133516">il.ac.shenkar.mwclient.services.RequestSourceIdentifier</node>
+    <node x="588.5177664974617" y="-386.83248730964476">il.ac.shenkar.mwclient.enums.InputSource</node>
+    <node x="774.7140439932318" y="-295.60406091370567">il.ac.shenkar.mwclient.models.MWResponse</node>
+    <node x="0.0" y="300.6057529610828">il.ac.shenkar.mwclient.inputs.impl.TobiiInputTranslatorImpl</node>
+    <node x="405.51607445008494" y="299.08967851099834">il.ac.shenkar.mwclient.inputs.impl.ClickerInputTranslatorImpl</node>
+    <node x="778.6548223350253" y="-369.8917089678512">il.ac.shenkar.mwclient.models.MWRequest</node>
+    <node x="249.5" y="0.0">il.ac.shenkar.mwclient.inputs.InputTranslator</node>
+    <node x="191.02538071065976" y="500.2504230118443">il.ac.shenkar.mwclient.daos.InputConfigurationDao</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.ClickerInputTranslatorImpl" target="il.ac.shenkar.mwclient.inputs.InputTranslator">
+      <point x="0.0" y="-70.5" />
+      <point x="596.0" y="77.0" />
+      <point x="466.25" y="77.0" />
+      <point x="72.25" y="26.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.TobiiInputTranslatorImpl" target="il.ac.shenkar.mwclient.models.InputConfiguration">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.InputTranslatorMatcher" target="il.ac.shenkar.mwclient.enums.InputSource">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.InputTranslatorMatcher" target="il.ac.shenkar.mwclient.services.RequestSourceIdentifier">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.InputTranslatorMatcher" target="il.ac.shenkar.mwclient.inputs.InputTranslator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.ClickerInputTranslatorImpl" target="il.ac.shenkar.mwclient.daos.InputConfigurationDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.TobiiInputTranslatorImpl" target="il.ac.shenkar.mwclient.daos.InputConfigurationDao">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.services.EventMatcher" target="il.ac.shenkar.mwclient.inputs.InputTranslatorMatcher">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.TobiiInputTranslatorImpl" target="il.ac.shenkar.mwclient.inputs.InputTranslator">
+      <point x="0.0" y="-70.5" />
+      <point x="192.0" y="77.0" />
+      <point x="321.75" y="77.0" />
+      <point x="-72.25" y="26.0" />
+    </edge>
+    <edge source="il.ac.shenkar.mwclient.inputs.impl.ClickerInputTranslatorImpl" target="il.ac.shenkar.mwclient.models.InputConfiguration">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8595982142857143" x="567.4056089327447" y="-220.23474422227991" />
+  <SelectedNodes>
+    <node>il.ac.shenkar.mwclient.services.RequestSourceIdentifier</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
